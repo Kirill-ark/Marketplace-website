@@ -18,6 +18,14 @@ A full-stack web marketplace built with Flask and SQLite. Supports user registra
 
 ---
 
+## Overview
+
+A complete e-commerce flow in a single Flask app — users register, browse a product catalogue, manage their cart, and place orders. Every order is snapshotted at checkout so the history stays accurate even if stock changes later.
+
+An admin account handles inventory: adding new products and adjusting stock levels through a dedicated panel.
+
+---
+
 ## Features
 
 - User registration and login with session management
@@ -51,6 +59,18 @@ A full-stack web marketplace built with Flask and SQLite. Supports user registra
 
 ---
 
+## Project Structure
+
+```
+Marketplace-website/
+├── templates/       # Jinja2 HTML templates
+├── app.py           # Flask routes and business logic
+├── init_db.py       # database schema and initialization
+└── main.py
+```
+
+---
+
 ## Getting Started
 
 **Requirements:** Python 3, Flask
@@ -66,15 +86,3 @@ python app.py
 Open `http://127.0.0.1:5000` in your browser.
 
 To access the admin panel, log in with the `admin` account and navigate to `/add_product`.
-
----
-
-## Project Structure
-
-```
-Marketplace-website/
-├── templates/       # Jinja2 HTML templates
-├── app.py           # Flask routes and business logic
-├── init_db.py       # Database schema and initialization
-└── main.py
-```
