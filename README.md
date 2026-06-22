@@ -4,6 +4,20 @@ A full-stack web marketplace built with Flask and SQLite. Supports user registra
 
 ---
 
+## Screenshots
+
+<p align="center">
+  <img src="screenshots/catalog.png" width="32%" />
+  <img src="screenshots/cart.png" width="32%" />
+  <img src="screenshots/login.png" width="32%" />
+</p>
+<p align="center">
+  <img src="screenshots/adding%20product.png" width="32%" />
+  <img src="screenshots/successful%20order.png" width="32%" />
+</p>
+
+---
+
 ## Features
 
 - User registration and login with session management
